@@ -5,15 +5,15 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      {/* <Stack.Navigator> */}
 
       <View style={styles.container}>
-      <Text>Hello World too you !</Text>
-      <StatusBar style="auto" />
+        <Text>Hello World!</Text>
+        <StatusBar style="auto" />
       </View>
-      </Stack.Navigator>
-      </NavigationContainer>
-   );
+      {/* </Stack.Navigator> */}
+    </NavigationContainer>
+  );
 }
 
 const styles = StyleSheet.create({
